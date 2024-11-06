@@ -12,7 +12,9 @@ public class Bill3 {
 		double forEach = Math.ceil(billPrice/3);
 
 		//Prints the result.
-		System.out.println("Pay " + forEach + " Shekels each");
+		System.out.println("Dear " + p3 + ", " + p2 + ", and " + p1 +
+				": " + "pay " + forEach + " Shekels each");
 
+		//Dear c, b, and a: pay 80.0 Shekels each
 	}
 }
