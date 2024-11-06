@@ -34,7 +34,7 @@ public class NumWords {
 				}
 
 				tens = tens + num.charAt(num.length() - 2);
-				ones = ones + num.charAt(num.length() - 3);
+				ones = ones + num.charAt(num.length() - 1);
 		}
 
 		//Converts the hundreds, tens and ones from String to Integer datatypes.
