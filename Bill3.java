@@ -5,7 +5,7 @@ public class Bill3 {
 		//Stores the name of each diner and the total bill price as string and double variables.
 		double billPrice = (double) Integer.valueOf(args[0]);
 		String p1 = args[1];
-		String p2 = args[2];
+		String p2 = args[2]; 
 		String p3 = args[3];
 
 		//Rounds the divided price for each person
