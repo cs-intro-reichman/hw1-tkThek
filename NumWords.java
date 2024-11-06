@@ -42,7 +42,7 @@ public class NumWords {
 		int t = Integer.parseInt(tens);
 		int o = Integer.parseInt(ones);
 
-		System.out.println(h + " hundreds, " + t + " tens, " + o + " ones.");
+		System.out.println(h + " hundreds, " + t + " tens, and " + o + " ones.");
 		}
 	}
 

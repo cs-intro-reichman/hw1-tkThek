@@ -19,9 +19,6 @@ public class TimeFormat {
 		if (hours > 12) {
 			newHours = hours - 12;
 		}
-		else if (hours == 0) {
-			newHours = 12;
-		}
 		else {newHours = hours;}
 
 		//Prints the result.
