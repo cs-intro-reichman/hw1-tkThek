@@ -15,11 +15,7 @@ public class TimeFormat {
 		}
 
 		//Converts hours>12 into a 12-hour standard.
-		int newHours = 0;
-		if (hours > 12) {
-			newHours = hours - 12;
-		}
-		else {newHours = hours;}
+		int newHours = hours % 12;
 
 		//Prints the result.
 		System.out.print(newHours + ":"); System.out.printf("%02d", minutes); System.out.println(ampm);
